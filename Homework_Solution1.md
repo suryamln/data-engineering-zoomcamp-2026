@@ -1,6 +1,3 @@
-### **Nama : Surya Maulana**
----
-
 #### Question 1. What's the version of pip in the python:3.13 image? (1 point)
 - Answer : 25.3
 - Solution :
@@ -48,8 +45,10 @@ volumes:
 ```
 
 - Answer : db:5432
-- Solution: 
-<img width="940" height="550" alt="image" src="https://github.com/user-attachments/assets/48c6d6d9-4e9b-4ac6-bbec-91279eef64f3" />
+- Solution:
+- <img width="878" height="798" alt="Screenshot 2026-01-27 052426" src="https://github.com/user-attachments/assets/46e21078-ea06-448f-ab22-0b968775159a" />
+
+  
 
 #### Question 3. For the trips in November 2025, how many trips had a trip_distance of less than or equal to 1 mile? (1 point)
 - Answer : 8,007
@@ -114,6 +113,7 @@ ORDER BY "Jumlah Tip"  DESC
 
 #### Question 7. Which of the following sequences describes the Terraform workflow for: 1) Downloading plugins and setting up backend, 2) Generating and executing changes, 3) Removing all resources? (1 point)
 Answer : terraform init, terraform apply -auto-approve, terraform destroy
+
 
 
 
