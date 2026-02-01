@@ -17,9 +17,9 @@ variables:
 ```
 Based on the given variable configuration (taxi=green, year=2020, month=04), the rendered value from the template {{inputs.taxi}}_tripdata_{{inputs.year}}-{{inputs.month}}.csv is:
 This was determined by analyzing the `variables` section of the Kestra flow and observing the rendered output during an execution with the following inputs:
-{{inputs.taxi}} renders as green
-{{inputs.year}} renders as 2020
-{{inputs.month}} renders as 04
+- `{{inputs.taxi}} renders as green`
+- `{{inputs.year}} renders as 2020`
+- `{{inputs.month}} renders as 04`
 - `taxi`: green
 - `year`: 2020
 - `month`: 04
