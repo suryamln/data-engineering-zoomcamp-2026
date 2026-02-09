@@ -52,7 +52,7 @@ SELECT PULocationID FROM `de-zoomcamp-2026-484615.nytaxi.yellow_tripdata_2024_ho
 SELECT PULocationID, DOLocationID FROM `de-zoomcamp-2026-484615.nytaxi.yellow_tripdata_2024_homework`;
 ```
 
-**Answer:** BigQuery is a columnar database... (Option 1)
+**Answer:** BigQuery is a columnar database.
 
 ## Question 4:
 How many records have a fare_amount of 0?
