@@ -14,7 +14,7 @@ dbt run --select int_trips_unioned
 
 ```
 
-> **Answer:** `int_trips_unioned` only
+> ✅**Answer:** `int_trips_unioned` only
 
 > **Why?** In dbt, selecting a model by its name without graph operators (like `+` or `@`) instructs dbt to run only that specific node in the DAG. Upstream and downstream dependencies are ignored.
 
@@ -24,7 +24,7 @@ dbt run --select int_trips_unioned
 
 **Objective:** Understand how dbt handles data quality test failures.
 
-> **Answer:** `dbt will fail the test, returning a non-zero exit code`
+> ✅**Answer:** `dbt will fail the test, returning a non-zero exit code`
 
 > **Why?** Generic tests like `accepted_values` act as assertions. If the underlying query returns rows (i.e., values not in the allowed list), the test fails. dbt will then return a failure status code, which is crucial for stopping CI/CD pipelines when data quality is compromised.
 
@@ -40,7 +40,7 @@ FROM dev.fct_monthly_zone_revenue;
 
 ```
 
-> **Answer:** `14,120`
+> ✅**Answer:** `14,120`
 
 ---
 
@@ -60,7 +60,7 @@ LIMIT 1;
 
 ```
 
-> **Answer:** `East Harlem North`
+> ✅**Answer:** `East Harlem North`
 
 ---
 
@@ -78,7 +78,7 @@ WHERE service_type = 'Green'
 
 ```
 
-> **Answer:** `500,234`
+> ✅**Answer:** `500,234`
 
 ---
 
@@ -104,6 +104,6 @@ WHERE dispatching_base_num IS NOT NULL;
 
 ```
 
-> **Answer:** `43,244,693`
+> ✅**Answer:** `43,244,693`
 
 ---
