@@ -16,7 +16,7 @@
 
 ### Question 2. Choosing the Right Materialization Method
 
-**Goal:**Pick the appropriate incremental loading technique for datasets organized by time.
+**Goal:** Pick the appropriate incremental loading technique for datasets organized by time.
 
 ```yaml
 # Example asset frontmatter
@@ -34,7 +34,7 @@ materialization:
 
 ### Question 3. Modifying Variables from the Command Line
 
-**Goal:**Learn the correct syntax to temporarily change a pipeline variable during execution.
+**Goal:** Learn the correct syntax to temporarily change a pipeline variable during execution.
 
 ```bash
 # Overriding the default array variable during execution
@@ -50,7 +50,7 @@ bruin run --var 'taxi_types=["yellow"]'
 
 ### Question 4. Executing an Asset and Its Dependents
 
-**Goal:**  Run a specific task and automatically trigger all tasks that rely on its output.
+**Goal:** Run a specific task and automatically trigger all tasks that rely on its output.
 
 ```bash
 # Running an asset and everything that depends on it
