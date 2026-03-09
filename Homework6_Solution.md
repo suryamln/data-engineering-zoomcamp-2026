@@ -80,6 +80,7 @@ Spark Web UI runs on:
 http://localhost:4040
 ```
 **Explanation** : When Spark applications run, they automatically start a web UI on port 4040 (or the next available port if 4040 is occupied). This interface provides real-time monitoring of jobs, stages, tasks, storage memory, environment variables, and executor performance—essential for debugging and optimizing Spark applications.
+
 ---
 
 ## Question 6 – Least Frequent Pickup Zone
