@@ -68,6 +68,7 @@ uv run python longest_trips.py
 90.6 hours
 ```
 **Explanation** :  This calculation uses Spark's datetime functions to compute the time difference between pickup and dropoff timestamps. The result of 90.6 hours (approximately 3.8 days) represents an unusually long taxi trip, possibly indicating data anomalies, multi-day rentals, or trips outside typical city boundaries.
+
 ---
 
 ## Question 5 – Spark User Interface
@@ -96,7 +97,6 @@ Governor's Island/Ellis Island/Liberty Island
 **Explanation** :   This analysis combines two datasets using Spark SQL—trip records and zone metadata. By aggregating trips per pickup location and sorting ascending, we identify the least utilized zones. These islands have limited vehicle access (ferry-only), naturally resulting in very few taxi pickups, making them statistically the least frequent pickup locations.
 
 
----
 ---
 
 
