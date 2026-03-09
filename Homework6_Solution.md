@@ -16,8 +16,6 @@ then for check version with
 uv run python -c "import pyspark; print(pyspark.__version__)"
 ```
 Result:
-
-```
 Spark version: 4.1.1
 
 ```
