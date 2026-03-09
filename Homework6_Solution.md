@@ -10,8 +10,6 @@ NYC Yellow Taxi dataset – **November 2025**
 
 ## Question 1 – Install Spark and PySpark
 
-with guide in zoomcamp, spark successfully installed and verified.
-then for check version with
 ```
 uv run python -c "import pyspark; print(pyspark.__version__)"
 ```
